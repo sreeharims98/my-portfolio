@@ -4,6 +4,7 @@ import cssLogo from "../assets/icons/css-3.png";
 import tsLogo from "../assets/icons/ts.png";
 import jsLogo from "../assets/icons/js.png";
 import reactLogo from "../assets/icons/react.png";
+import nextLogo from "../assets/icons/nextjs.svg";
 import reduxLogo from "../assets/icons/redux.png";
 import expressjsLogo from "../assets/icons/expressjs.png";
 import figmaLogo from "../assets/icons/figma.svg";
@@ -80,6 +81,7 @@ export const data = {
       { name: "JavaScript", logo: jsLogo },
       { name: "TypeScript", logo: tsLogo },
       { name: "React.JS", logo: reactLogo },
+      { name: "Next.JS", logo: nextLogo },
       { name: "Redux", logo: reduxLogo },
       { name: "MongoDB", logo: mongodbLogo },
       { name: "Express.JS", logo: expressjsLogo },
