@@ -24,6 +24,9 @@
   .custom_hr {
     @apply border-t border-dark_text_s dark:border-dark_bg_s my-6;
   }
+  .container {
+    @apply px-6;
+  }
 }
 
 html,

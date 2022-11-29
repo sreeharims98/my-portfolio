@@ -15,11 +15,18 @@ export const Header = ({
   return (
     <div>
       <ul className="w-full flex items-center justify-end">
-        <li className={style.li}>
+        {/* <li className={style.li}>
           <Link href="/rockPaperScissors">Rock,Paper,Scissors</Link>
+        </li> */}
+        {/* <li className={style.li}>download resume</li> */}
+        <li className={style.li}>
+          <a
+            href="https://github.com/sreeharims98/my-portfolio"
+            target="_blank"
+          >
+            source_code
+          </a>
         </li>
-        <li className={style.li}>source_code</li>
-        <li className={style.li}>download resume</li>
         <li className={style.li} onClick={toggleDarkMode}>
           {darkMode ? ICONS.moon : ICONS.sun}
         </li>
