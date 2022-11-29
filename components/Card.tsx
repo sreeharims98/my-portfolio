@@ -1,4 +1,4 @@
-import Image, { StaticImageData } from "next/image";
+import { StaticImageData } from "next/image";
 
 interface CardProps {
   img?: StaticImageData;
@@ -16,7 +16,7 @@ const Card = ({ img, icon, text, link }: CardProps) => {
     >
       <div className="mr-2  w-5 h-5">
         {img ? (
-          <Image src={img} alt="" className="w-full h-full object-contain" />
+          <img src={img.src} alt="" className="w-full h-full object-contain" />
         ) : (
           icon
         )}

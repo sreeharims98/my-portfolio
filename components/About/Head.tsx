@@ -1,4 +1,4 @@
-import Image, { StaticImageData } from "next/image";
+import { StaticImageData } from "next/image";
 import { data } from "../../data";
 
 interface IDataPersonal {
@@ -20,8 +20,8 @@ const Head = () => {
   return (
     <div className="flex flex-wrap gap-5">
       <div className="w-full flex items-center justify-center md:w-fit md:items-start md:justify-start">
-        <Image
-          src={Thedata.image}
+        <img
+          src={Thedata.image.src}
           alt=""
           className="w-24 h-24 rounded-full object-cover object-top"
         />
